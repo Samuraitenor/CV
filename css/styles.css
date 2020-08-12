@@ -1,0 +1,222 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 100%;
+  margin: 0px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #66BFBF;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+/* TOP CONTAINER AND CONTENTS */
+.top-container {
+  background-color: #b0cac7;
+  margin: 0px;
+  padding-top: 50px;
+  color: black;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  line-height: 2;
+}
+
+.top-container p {
+  font-weight: normal;
+}
+
+p {
+  line-height: 2;
+}
+
+.under {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+/* MIDDLE CONTAINER AND CONTENTS */
+.middle-container {
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+
+.border {
+  border: 1px black solid;
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+}
+
+.profile {
+  padding-top: 50px;
+  background-color: #519872;
+}
+
+.profile h2 {
+  color: #faf3dd;
+}
+
+.profile p {
+  padding-bottom: 20px;
+}
+
+/* Skills section */
+.h2skills {
+  padding: 20px 0 10px;
+}
+
+.dots1 {
+  width: 5%;
+  border-top: 5px dotted grey;
+  margin: 40px auto 20px auto;
+}
+
+.center {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 75px auto 150px auto;
+  text-align: left;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 75px auto 150px auto;
+  text-align: left;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+.skill-row1 img {
+  width: 25%;
+  height: 148px;
+  box-shadow: -20px 10px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.skill-row2 img {
+  width: 25%;
+  height: 180px;
+  box-shadow: 20px 10px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.welding {
+  float: left;
+  margin-right: 30px;
+}
+
+.description {
+  margin-left: 40px;
+}
+
+.web-develop {
+  float: right;
+  margin-left: 30px;
+}
+
+/* CONTACT ME AND CONTENTS */
+.dots2 {
+  width: 5%;
+  border-top: 5px dotted grey;
+}
+
+.contact-me {
+  padding-top: 25px;
+  margin-bottom: 40px;
+  line-height: 2;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #0079c9);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #0079c9);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #0079c9);
+  background-image: -o-linear-gradient(top, #3cb0fd, #0079c9);
+  background-image: linear-gradient(to bottom, #3cb0fd, #0079c9);
+  text-decoration: none;
+}
+
+/* BOTTOM CONTAINER AND CONTENTS */
+.bottom-container {
+  color: #40514E;
+  background-color: #66BFBF;
+  padding: 50px 0 0;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: "Montserrat", san-sans-serif;
+  padding-top: 10px;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: white;
+}
+
+.sur {
+  color: #EAF6F6;
+  font: 0.75em;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
